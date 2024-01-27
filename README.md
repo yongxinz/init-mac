@@ -248,3 +248,15 @@ go env -w GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
 # 3. 官方
 go env -w  GOPROXY=https://goproxy.io,direct
 ```
+
+### 数据库客户端 dbeaver
+
+官方地址：https://dbeaver.io/
+
+### 开发环境
+
+使用 Docker 搭建基本的开发环境，包括 MySQL 和 Redis 等。
+
+这里推荐一个开源项目 gonivinck，只需要一条命令，就可以启动常用的开发环境容器。
+
+项目地址：https://github.com/nivin-studio/gonivinck
